@@ -15,6 +15,7 @@ namespace PostCleanArchitecture.Application.Profiles
             CreateMap<Post, GetPostDetailViewModel>().ReverseMap();
             CreateMap<Post, UpdatePostCommand>().ReverseMap();
             CreateMap<Post, CreatePostCommand>().ReverseMap();
+            CreateMap<Category, CategoryDto>().ReverseMap();
         }
     }
 }
